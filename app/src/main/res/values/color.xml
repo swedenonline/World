@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_H">#df7b7b</color>
+    <color name="color_G">#6a6b6e</color>
+    <color name="color_F">#aaaaaa</color>
+    <color name="color_E">#c4cde0</color>
+    <color name="color_D">#ffffff</color>
+    <color name="color_C">#f7f7f7</color>
+    <color name="color_B">#CB2424</color>
+    <color name="color_A">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorOverlay">#aa000000</color>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">World</string>
+    <string name="title_activity_country">Countries of the World</string>
+    <string name="loader_text">Loading data, please wait...</string>
+    <string name="no_record">No data found...</string>
+    <string name="no_internet">Please check your internet connection.</string>
+
+</resources>

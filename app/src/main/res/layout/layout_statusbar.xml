@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_B">
+
+    <RelativeLayout
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/app_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:onClick="onNavBackClicked">
+
+            <ImageView
+                android:id="@+id/nav_back"
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/back"
+                android:onClick="onNavBackClicked"/>
+
+            <ImageView
+                android:id="@+id/nav_logo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_launcher"
+                android:onClick="onNavBackClicked"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:lines="1"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:fadingEdge="horizontal"
+            android:singleLine="true"
+            android:id="@+id/nav_label"
+            android:layout_toRightOf="@+id/app_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="40dp"
+            android:textColor="@color/color_D"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="@string/app_name"
+            android:layout_centerVertical="true"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:id="@+id/menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="2dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:visibility="visible"
+            android:onClick="onNavMenuClicked">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_search"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_F"
+        android:alpha="0.8"
+        android:layout_alignParentBottom="true">
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/bilal/AndroidStudioProjects/World/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/bilal/AndroidStudioProjects/World/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-22.0.0_c6987bcc5a8cce650c44a1ba2489f48402d5d9f2.jar" />
+    </item>
+    <item
+        jar="/Users/bilal/AndroidStudioProjects/World/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/bilal/AndroidStudioProjects/World/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-22.0.0_7b9690e47bf3e79f154c809a382695c1ffe3840c.jar" />
+    </item>
+    <item
+        jar="/Users/bilal/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/bilal/AndroidStudioProjects/World/app/build/intermediates/pre-dexed/release/support-annotations-22.0.0_6e43b1cab859ebb39f6fdc46e856286a957eb7b8.jar" />
+    </item>
+    <item
+        jar="/Users/bilal/AndroidStudioProjects/World/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/bilal/AndroidStudioProjects/World/app/build/intermediates/pre-dexed/release/internal_impl-22.0.0_8acb9a0a93e17cdd04c324f3ded48e27c514dbf1.jar" />
+    </item>
+    <item
+        jar="/Users/bilal/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/Users/bilal/AndroidStudioProjects/World/app/build/intermediates/pre-dexed/release/gson-2.2.4_0e0bef3ce5f2c9b19212ddbf102b994be7d1321d.jar" />
+    </item>
+
+</items>
